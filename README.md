@@ -22,9 +22,14 @@ installed
 docker-compose up -d
 ```
 
-### document root
+### document root for host
 ```bash
 docker-compose.yml/../src/code/public
+```
+
+### document root for container
+```bash
+/srv/public
 ```
 
 ## Author
