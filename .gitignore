@@ -1,1 +1,3 @@
 /data/mariadb/*
+
+!/data/mariadb/.gitkeep
