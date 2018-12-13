@@ -9,6 +9,7 @@ RUN yum install -y git wget
 RUN yum install -y php-mbstring php-dom
 RUN wget https://dl.yarnpkg.com/rpm/yarn.repo -O /etc/yum.repos.d/yarn.repo
 RUN curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
-RUN yum install -y yarn
+RUN yum install -y yarn zip
+RUN yum install -y php-zip
 CMD tail -f /dev/null
 CMD ["/usr/sbin/init"]
